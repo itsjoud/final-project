@@ -1,0 +1,31 @@
+{% extends 'home/main.html' %}
+{% load static %}
+
+
+{% block content%}
+
+<div class="jumbotron">
+    <h1 class="display-4">Contact Us</h1>
+    <p class="lead">What would you like help with today? You can quickly take care of most things here, or connect with us when needed.
+    </p>
+    <hr class="my-4">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control"  aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+        </div>
+      </div>
+    <p class="lead">
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"></span>
+            </div>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    </p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">submit</a>
+    </p>
+  </div>
+
+{% endblock %}
